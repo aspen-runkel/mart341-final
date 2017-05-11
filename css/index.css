@@ -1,0 +1,81 @@
+body {font-family: coustard;
+    font-size: 1.5em;
+    color: #001b60;
+    text-align: center;
+    line-height: 1.45em;
+    letter-spacing: normal;
+    max-width: 100%;
+    margin: 0;}
+
+.menu-container {background-color: #001b60;
+        margin: 0;
+        padding: 0;
+        position: ;
+        top: 0;}
+.menuitem {display: inline-block;
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+        background-color: #001b60;
+        color: #ffffff;}
+.menuitem:hover {background-color: #ffffff;
+        color: #006349;}
+
+#img-1, #img-2, #img-3 {
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;}
+#img-1 {
+    min-height: 100vh;
+    background-image: url("images/gnp-sm.jpg");}
+#img-2 {
+    min-height: 400px;
+    background-image: url("images/gnp-b.jpg");}
+#img-3 {
+    min-height: 400px;
+    background-image: url("images/gnp-g.jpg");}
+
+#description {
+    position: relative;}
+
+#about, #melting-glaciers, #rebranding {
+    padding: 50px 80px;
+    color: #001b60;
+    background-color: #ffffff;
+    text-align: center;}
+
+#caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;;
+    text-align: center;}
+
+#caption span#border {
+    padding: 18px;
+    color: #f7f7f7;
+    background-color: #001b60;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: normal;}
+
+h2 {padding: 10px;
+    color: #ffffff;
+    background-color: #001b60;
+    font: 3em, coustard;
+    line-height: 1.5em;
+    letter-spacing: normal;}
+h2:hover {background-color: #006349;
+        color: #ffffff;}
+
+h3 {color: #006349;
+    font: 3em, coustard;
+    letter-spacing: normal;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    #img-1, #img-2, #img-3 {
+        background-attachment: scroll;}}

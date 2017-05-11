@@ -1,0 +1,90 @@
+body {font-family: coustard;
+    font-size: 1.5em;
+    color: #001b60;
+    text-align: center;
+    line-height: 1.45em;
+    letter-spacing: normal;
+    max-width: 100%;
+    margin: 0;}
+
+.menu-container {background-color: #001b60;
+        margin: 0;
+        padding: 0;
+        position: ;
+        top: 0;}
+.menuitem {display: inline-block;
+        padding: 1em;
+        text-align: center;
+        text-decoration: none;
+        background-color: #001b60;
+        color: #ffffff;}
+.menuitem:hover {background-color: #ffffff;
+        color: #006349;}
+
+#img-1, #img-2, #img-3 {
+        position: relative;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;}
+#img-1 {min-height: 57vh;
+        background-image: url("images/gnp-sm.jpg");}
+
+#img-a {width: 253;
+        height: 336;}
+#img-a {float: left;
+        margin-right: 10px;}
+#aspen, #form {padding-top: 0px;
+        padding-bottom: 120px;
+        padding-left: 80px;
+        padding-right: 80px;}
+
+textarea.text1, .textm {color: #001b60;
+    background-color: #dddddd;
+    font-size: .75em;
+    font-family: coustard;
+    padding: .5em;
+  width: 70%;}
+input.send {color: #ffffff;
+    background-color: #001b60;
+    font-size: 1em;
+    font-family: coustard;
+    padding: .5em;
+    display: inline-block;}
+input.send:hover {
+    background-color: #006349;
+    color: #ffffff;}
+
+#description {
+    position: relative;}
+
+#introduction, #marketing, #challenge, #iconic, #gallery, #contact {
+    padding: 50px 80px;
+    color: #001b60;
+    background-color: #ffffff;
+    text-align: center;}
+
+#caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;;
+    text-align: center;}
+#caption span#border {
+    padding: 18px;
+    color: #f7f7f7;
+    background-color: #001b60;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    letter-spacing: normal;}
+
+h3 {color: #006349;
+    font: 3em, coustard;
+    line-height: 1.5em;
+    letter-spacing: normal;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    #img-1, #img-2, #img-3 {
+        background-attachment: scroll;}}
